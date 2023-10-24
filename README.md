@@ -49,14 +49,10 @@ python ecg/train.py path_to_config.json
 Note that after each epoch the model is saved in
 `ecg/saved/<experiment_id>/<timestamp>/<model_id>.hdf5`.
 
-For an actual example of how to run this code on a real dataset, you can follow
-the instructions in the cinc17 [README](examples/cinc17/README.md). This will
-walk through downloading the Physionet 2017 challenge dataset and training and
-evaluating a model.
 
 ## Testing
 
-After training the model for a few epochs, you can make predictions with.
+After training the model for a few epochs, make predictions with:
 
 ```
 python ecg/predict.py <dataset>.json <model>.hdf5
