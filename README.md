@@ -3,7 +3,7 @@
 Clone the repository
 
 ```
-git clone git@github.com:awni/ecg.git
+git clone git clone git@github.com:awni/ecg.git
 ```
 
 If you don't have `virtualenv`, install it with
