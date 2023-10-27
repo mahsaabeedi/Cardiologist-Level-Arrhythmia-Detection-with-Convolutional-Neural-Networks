@@ -1,3 +1,13 @@
+## Introduction
+
+Develop a model which can diagnose irregular heart
+rhythms, also known as arrhythmias, from single-lead ECG
+signals better than a cardiologist. Key to exceeding expert performance is a deep convolutional network which
+can map a sequence of ECG samples to a sequence of arrhythmia annotations along with a novel dataset two orders
+of magnitude larger than previous datasets of its kind.
+
+
+
 ## Install 
 
 Clone the repository
