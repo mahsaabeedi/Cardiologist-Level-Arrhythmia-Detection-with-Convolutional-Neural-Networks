@@ -7,22 +7,15 @@ can map a sequence of ECG samples to a sequence of arrhythmia annotations along 
 of magnitude larger than previous datasets of its kind.
 
 
+## Project Highlights
 
-## Install 
+## References
 
-Clone the repository
 
-```
-git clone git@github.com:awni/ecg.git
-```
-
-If you don't have `virtualenv`, install it with
-
-```
-pip install virtualenv
-```
-
-Make and activate a new Python 2.7 environment
+## Installation
+* Clone the repository with git clone git@github.com:awni/ecg.git
+* If you don't have `virtualenv`, install it with pip install virtualenv
+* Make and activate a new Python 2.7 environment
 
 ```
 virtualenv -p python2.7 ecg_env
